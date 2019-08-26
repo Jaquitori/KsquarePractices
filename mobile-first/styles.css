@@ -1,0 +1,362 @@
+html, body {
+  font-family: "Ubuntu";
+  background-color: #F1F1F1;
+  height: 100%;
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/*****************************************
+*   P R O F I L E
+*******************************************/
+
+.avatar {
+  width: 99px;
+  height: 99px;
+  border-radius: 50%;
+  background-color: #bebebe;
+  display: inline-block;
+  border: 4px solid #11EDAD;
+  box-sizing: border-box;
+}
+.name {
+  margin-top: 15px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner .title {
+  margin-top: 4px;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  font-style: normal;
+}
+
+.banner .description {
+  margin: 12px 62px 0px 62px;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  text-align: center;
+}
+.banner {
+  margin: 0;
+  padding: 24px 0;
+  text-align: center;
+  /* height: 232px; */
+  background: #003366;
+  box-sizing: border-box;
+}
+
+/*****************************************
+*   E X P E R I E N C E
+*******************************************/
+.experience {
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  color: #003366;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.experience-box {
+  background: #FFFFFF;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  padding: 8px;
+  margin-bottom: 1rem;
+  margin: 15px;
+  align-self: flex-end;
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #003366;
+  margin: 0;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #003366;
+  margin: 4px 0;
+}
+
+h5 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 11px;
+  color: #515354;
+  margin: 0;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  color: #515354;
+  margin: 0;
+}
+
+a {
+  text-decoration: unset;
+  font-size: 12px;
+  line-height: 14px;
+  color: #003366;
+ }
+
+ .experience .link {
+   text-align: right;
+ }
+
+ /*****************************************
+*   P R O J E C T S
+*******************************************/
+.projects {
+  padding: 1rem 1rem 1rem 1rem;
+  background: #FFFFFF;
+}
+
+.project-box {
+  /*width: 288px; */
+  /* height: 107px; */
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1rem;
+  align-self: flex-end;
+}
+
+.project-box .up-todo {
+  background: #003366;
+  padding: 8px;
+}
+
+.project-box h3 {
+  color: #FFFFFF;
+}
+
+button {
+  width: 74px;
+  height: 24px;
+  background: #0067CE;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  padding: 5px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.project-button {
+  text-align: center;
+}
+
+.description-todo p {
+  margin: 8px;
+}
+
+ /*****************************************
+*   B L O G
+*******************************************/
+.blog-title {
+  background: #F1F1F1;
+  padding: 1rem;
+}
+
+.blog-title .title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.blog {
+  background: #FFFFFF;
+  padding: 1rem;
+}
+
+.blog-steps h3{
+  text-align: center;
+  font-weight: bold;
+}
+
+.blog-published {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #515354;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 15px;
+}
+
+.blog-button {
+  text-align: center;
+}
+
+/* .line {
+  height: 4px;
+  background: #11EDAD;
+} */
+
+/*****************************************
+*   F O R M
+*******************************************/
+
+.form {
+  padding: 1rem 1rem 1rem 1rem;
+  background: #003366;
+  border-top:solid 4px #11EDAD; 
+  border-bottom: solid 4px #11EDAD;
+  align-content: flex-end;
+  /* height: 239px; 
+  left: 0px;
+  top: 1285px;*/
+
+}
+
+.form .title {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 8px;
+}
+
+.send-me {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #EEEEEE;
+  text-align: center;
+}
+
+input[type=text]{
+  background-color: #003366;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 2px;
+  height: 28px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  color: #EEEEEE;
+  width: 168px;
+}
+
+form {
+  margin-top: 19px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+textarea {
+  background-color: #003366;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 2px;
+  height: 60px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  color: #EEEEEE;
+  width: 168px;
+  margin-bottom: 17px;
+}
+
+.message {
+  text-align: center;
+}
+
+.form-button {
+  text-align: center;
+}
+
+
+@media (min-width: 1024px){
+  .experience-box-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .project-box-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .experience-box {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    min-height: 125px;
+
+  }
+  .project-box {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    min-height: 125px;
+  }
+
+  .experience {
+    flex: 1 1 30%;
+  }
+
+  textarea {
+    width: 393px;
+  }
+
+  input[type=text]{
+    width: 393px;
+  }
+
+}
