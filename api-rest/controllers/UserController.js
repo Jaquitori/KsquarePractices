@@ -1,7 +1,7 @@
 import db from '../db/db';
 
-class UsersController {
-  getAllUsers(_req, res) {
+
+  export function getAllUsers(_req, res) {
     return res.status(200).send({
       success: 'true',
       message: 'users retrieved successfully',
@@ -9,7 +9,7 @@ class UsersController {
     });
   }
 
-  getUser(req, res) {
+  export function getUser(req, res) {
     const id = parseInt(req.params.id, 10);
     db.users.map((user) => {
       if (user.id === id) {
@@ -26,7 +26,7 @@ class UsersController {
     });
   }
 
-  createUser(req, res) {
+  export function createUser(req, res) {
     if(!req.body.firstName || !req.body.lastName) {
         return res.status(400).send({
           success: 'false',
@@ -58,7 +58,7 @@ class UsersController {
       }
   }
 
-  updateUser(req, res) {
+  export function updateUser(req, res) {
     const id = parseInt(req.params.id, 10);
     let userFound;
     let itemIndex;
@@ -109,7 +109,7 @@ class UsersController {
     });
   }
 
-  deleteUser(req, res) {
+  export function deleteUser(req, res) {
     const id = parseInt(req.params.id, 10);
     let userFound;
     let itemIndex;
@@ -134,7 +134,7 @@ class UsersController {
       message: 'user deleted successfuly',
     });
   }
-}
 
-const UserController = new UsersController();
-module.exports = UserController;
+
+//const UserController = new UsersController();
+// module.exports = UserController;
