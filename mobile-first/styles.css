@@ -184,7 +184,7 @@ button {
   font-weight: 500;
   line-height: 14px;
   cursor: pointer;
-  margin-right: 8px;
+ margin-bottom: 21px;
 }
 
 .project-button {
@@ -193,6 +193,7 @@ button {
 
 .description-todo p {
   margin: 8px;
+  margin-bottom: 21px;
 }
 
  /*****************************************
@@ -247,8 +248,8 @@ button {
 .form {
   padding: 1rem 1rem 1rem 1rem;
   background: #003366;
-  border-top:solid 4git px #11EDAD; 
-  border-bottom: solid 4git px #11EDAD;
+  border-top:solid 4px #11EDAD; 
+  border-bottom: solid 4px #11EDAD;
   align-content: flex-end;
   /* height: 239px; 
   left: 0px;
@@ -335,7 +336,7 @@ textarea {
     margin: 1rem;
     display: flex;
     flex-direction: column;
-    width: 900px;
+    width: 100%;
     min-height: 125px;
 
   }
