@@ -10,7 +10,7 @@
 [Responsive Design](https://jaquitori.github.io/KsquarePractices/mostly-fuid-layout/)
 
 ## user-list
-[Add New User](https://jaquitori.github.io/KsquarePractices/user-list/AddNewUser/)
-[Edit User](https://jaquitori.github.io/KsquarePractices/user-list/EditUser/)
-[List Contact](https://jaquitori.github.io/KsquarePractices/user-list/ListContact/)
+1. [Add New User](https://jaquitori.github.io/KsquarePractices/user-list/AddNewUser/)
+2. [Edit User](https://jaquitori.github.io/KsquarePractices/user-list/EditUser/)
+3. [List Contact](https://jaquitori.github.io/KsquarePractices/user-list/ListContact/)
 
